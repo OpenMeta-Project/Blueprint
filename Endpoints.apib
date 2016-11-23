@@ -1,0 +1,18 @@
+## Endpoints [/]
+
+### Get Available Endpoints [GET]
+
+Fetches a list of available endpoints.
+
++ Response 201 (application/json)
+    {
+        "status": "success",
+        "code": 201,
+        "apiVersion": 1,
+        "requestUrl": "<%= api.url %>/",
+        "data": {
+            "label": "music",
+            "link": "<%= api.url %>/v1/music/",
+            "rel": "self"
+        }
+    } 
