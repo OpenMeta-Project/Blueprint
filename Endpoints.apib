@@ -10,9 +10,21 @@ Fetches a list of available endpoints.
         "code": 201,
         "apiVersion": 1,
         "requestUrl": "<%= api.url %>/",
-        "data": {
-            "label": "music",
-            "link": "<%= api.url %>/v1/music/",
-            "rel": "self"
-        }
+        "data": [
+            {
+                "label": "music",
+                "link": "<%= api.url %>/v1/music/",
+                "rel": "self"
+            },
+            {
+                "label": "movies",
+                "link": "<%= api.url %>/v1/movies/",
+                "rel": "self"
+            },
+            {
+                "label": "television",
+                "link": "<%= api.url %>/v1/television/",
+                "rel": "self"
+            }
+        ]
     } 
